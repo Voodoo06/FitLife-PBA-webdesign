@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trainers - FitLife</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">FitLife</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse2" aria-controls="navcollapse2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcollapse2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="trainers.html">Trainers</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+		  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="mb-4">Meet Our Trainers</h1>
+
+    <!-- Carousel -->
+    <div id="trainerCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-4">
+              <img src="images/alex rivera.jpg" class="img-fluid rounded mx-auto d-block" height="250px" width="250px">
+            </div>
+            <div class="col-md-8">
+              <h3>Alex Rivera</h3>
+              <p>Strength & conditioning coach with 8 years' experience. Specialises in functional training and weight-loss programs.</p>
+              <p><strong>Qualifications:</strong> NASM Certified</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-4">
+              <img src="images/priya.jpg" class="img-fluid rounded mx-auto d-block" height="250px" width="250px">
+            </div>
+            <div class="col-md-8">
+              <h3>Priya Sharma</h3>
+              <p>Representing her home country, India, a Yoga instructor focusing on vinyasa and restorative classes for stress relief and mobility.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-4">
+              <img src="images/marco.jpg" class="img-fluid rounded mx-auto d-block" height="250px" width="250px">
+            </div>
+            <div class="col-md-8">
+              <h3>Marco Diaz</h3>
+              <p>Zumba & Dance Fitness instructor, hailing from Mexico - brings energy and rhythm to every class.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#trainerCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#trainerCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
